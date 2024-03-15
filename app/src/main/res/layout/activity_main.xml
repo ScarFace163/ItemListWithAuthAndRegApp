@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#202547"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="Create account"
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:fontFamily="@font/archivo"
+        android:inputType="text"
+        android:hint="Login"
+        android:textColor="#cacaf6"
+        android:textColorHint="#cacaf6"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textColor="#cacaf6"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#cacaf6"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#cacaf6"
+        android:hint="Email"
+        android:textColorHint="#cacaf6"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonConfirmInLoginContext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/inter_bold"
+        android:shadowColor="#732323"
+        android:text="Confirm"
+        android:textColor="#C9C9F5"
+        android:backgroundTint="#1B5583"/>
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:shadowColor="#732323"
+        android:text="Login"
+        android:textColor="#C9C9F5"
+        android:backgroundTint="#1B5583"/>
+
+
+</LinearLayout>

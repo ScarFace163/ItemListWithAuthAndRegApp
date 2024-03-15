@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_activity">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#202547"
+    tools:context=".item_activity">
+
+    <TextView
+        android:id="@+id/itemInName"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="Text"
+        android:textSize="30dp"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+    <ImageView
+
+        android:id="@+id/itemInImage"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_marginVertical="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/msi_gegorce_rtx_4070_ventus3x" />
+    <TextView
+        android:id="@+id/itemInText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="Text"
+        android:textSize="20dp"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/buttonBuyItNow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="#1B5583"
+        android:fontFamily="@font/inter_bold"
+        android:text="Buy it now"
+        android:textSize="20dp"
+        android:textColor="#C9C9F5" />
+
+</LinearLayout>
+</ScrollView>
